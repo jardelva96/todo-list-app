@@ -24,13 +24,13 @@ Este projeto consiste em uma aplicação web de gerenciamento de tarefas, desenv
 
 ### 🧪 Testes
 - **pytest**: Framework de testes para o backend.
-- **Selenium** (opcional): Para testes end-to-end no frontend.
+- **Selenium**: Para testes end-to-end no frontend.
 
-### 🔧 CI/CD (opcional)
+### 🔧 CI/CD 
 - Ferramentas de integração contínua para automatizar testes e deploy.
 
-### ☁️ Deploy (opcional)
-- **AWS ou Azure**: Implementação da aplicação em uma plataforma de nuvem.
+### ☁️ Deploy
+- **AWS**: Implementação da aplicação em uma plataforma de nuvem.
 
 ---
 
@@ -52,7 +52,7 @@ Este projeto consiste em uma aplicação web de gerenciamento de tarefas, desenv
 8. **Testes Unitários no Backend**
    - Implementados com pytest.
 
-### 🌟 Funcionalidades Opcionais
+### 🌟 Funcionalidades
 1. **Categorias**
    - Criação e gerenciamento de categorias para organização das tarefas.
 2. **Compartilhamento de Tarefas**
