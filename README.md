@@ -1,40 +1,42 @@
-# Gerenciador de Tarefas (To-Do List)
+# 🌟 Gerenciador de Tarefas (To-Do List)
 
-Este projeto consiste em uma aplicação web de gerenciamento de tarefas. A aplicação permite que os usuários registrem, visualizem, editem e excluam tarefas, além de marcar tarefas como concluídas ou pendentes. O sistema também oferece funcionalidades avançadas como autenticação, filtragem, paginação, e integração com contêineres Docker para fácil configuração e deploy.
+Este projeto consiste em uma aplicação web de gerenciamento de tarefas, desenvolvida como parte de um teste prático. A aplicação permite que os usuários registrem, visualizem, editem e excluam tarefas, além de marcar tarefas como concluídas ou pendentes. O sistema também oferece funcionalidades avançadas como autenticação, filtragem, paginação, e integração com contêineres Docker para fácil configuração e deploy.
 
-## Tecnologias Utilizadas
+---
 
-### Frontend
+## 🚀 Tecnologias Utilizadas
+
+### 🖥️ Frontend
 - **React.js**: Framework JavaScript para construção da interface do usuário.
 - **CSS**: Estilo visual das páginas, com design moderno e responsivo.
 
-### Backend
+### 🛠️ Backend
 - **Django REST Framework**: Framework poderoso para a construção de APIs RESTful com Python.
 - **Django**: Framework backend para construção de aplicações web robustas.
 - **SQLite**: Banco de dados local usado para armazenamento de dados durante o desenvolvimento.
 
-### Autenticação
+### 🔒 Autenticação
 - **JWT (JSON Web Token)**: Implementado com o Django REST Framework para autenticação segura entre o frontend e o backend.
 
-### Contêineres
+### 📦 Contêineres
 - **Docker**: Para criar contêineres que encapsulam toda a aplicação e dependências.
 - **Docker Compose**: Para orquestrar múltiplos contêineres (frontend, backend e banco de dados).
 
-### Testes
+### 🧪 Testes
 - **pytest**: Framework de testes para o backend.
 - **Selenium** (opcional): Para testes end-to-end no frontend.
 
-### CI/CD (opcional)
+### 🔧 CI/CD (opcional)
 - Ferramentas de integração contínua para automatizar testes e deploy.
 
-### Deploy (opcional)
+### ☁️ Deploy (opcional)
 - **AWS ou Azure**: Implementação da aplicação em uma plataforma de nuvem.
 
 ---
 
-## Funcionalidades
+## 🌟 Funcionalidades
 
-### Funcionalidades Obrigatórias
+### ✅ Funcionalidades Obrigatórias
 1. **CRUD de Tarefas**
    - Criar, ler, atualizar e excluir tarefas.
 2. **Autenticação de Usuário**
@@ -50,7 +52,7 @@ Este projeto consiste em uma aplicação web de gerenciamento de tarefas. A apli
 8. **Testes Unitários no Backend**
    - Implementados com pytest.
 
-### Funcionalidades Opcionais
+### 🌟 Funcionalidades Opcionais
 1. **Categorias**
    - Criação e gerenciamento de categorias para organização das tarefas.
 2. **Compartilhamento de Tarefas**
@@ -60,16 +62,16 @@ Este projeto consiste em uma aplicação web de gerenciamento de tarefas. A apli
 
 ---
 
-## Como Rodar o Projeto
+## 📚 Como Rodar o Projeto
 
-### Requisitos
+### 🔧 Requisitos
 1. **Node.js** (versão 16 ou superior)
 2. **Python** (versão 3.10 ou superior)
 3. **Docker** e **Docker Compose**
 
-### Passos para Configuração
+### 🛠️ Passos para Configuração
 
-#### 1. Clonar o Repositório
+#### 1️⃣ Clonar o Repositório
 ```bash
 # Clone o repositório
 $ git clone https://github.com/usuario/todo-list.git
@@ -78,7 +80,7 @@ $ git clone https://github.com/usuario/todo-list.git
 $ cd todo-list
 ```
 
-#### 2. Configuração do Backend
+#### 2️⃣ Configuração do Backend
 
 1. Navegue para o diretório do backend:
 ```bash
@@ -111,7 +113,7 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 
-#### 3. Configuração do Frontend
+#### 3️⃣ Configuração do Frontend
 
 1. Navegue para o diretório do frontend:
 ```bash
@@ -128,7 +130,7 @@ $ npm install
 $ npm start
 ```
 
-#### 4. Uso de Docker
+#### 4️⃣ Uso de Docker
 
 1. Certifique-se de estar no diretório raiz do projeto.
 2. Execute o comando abaixo para iniciar os contêineres:
@@ -140,7 +142,7 @@ $ docker-compose up --build
 
 ---
 
-## Estrutura de Diretórios
+## 📂 Estrutura de Diretórios
 ```
 /
 ├── backend/            # Código do backend em Django
@@ -158,16 +160,16 @@ $ docker-compose up --build
 
 ---
 
-## Testes
+## 🧪 Testes
 
-### Backend
+### 🛠️ Backend
 Para rodar os testes no backend:
 ```bash
 $ cd backend
 $ pytest
 ```
 
-### Frontend
+### 🖥️ Frontend
 Para rodar testes no frontend:
 ```bash
 $ cd frontend
@@ -176,17 +178,19 @@ $ npm test
 
 ---
 
-## Melhorias Futuras
+## 🌟 Melhorias Futuras
 - Adicionar mais APIs externas para enriquecer funcionalidades.
 - Melhorar o design com bibliotecas como Material-UI ou TailwindCSS.
 - Configurar deploy automatizado com CI/CD.
 
 ---
 
-## Contribuições
+## 🤝 Contribuições
 Sugestões e melhorias são bem-vindas! Por favor, envie um Pull Request ou abra uma Issue no repositório.
 
 ---
 
-## Contato
-Para dúvidas ou suporte, envie um e-mail para `jardel.va96@gmail.com`.
+## 📬 Contato
+Para dúvidas ou suporte, envie um e-mail para `seuemail@exemplo.com`. 📧
+
+![Logo do Projeto](https://via.placeholder.com/800x200.png?text=Gerenciador+de+Tarefas+📋)
